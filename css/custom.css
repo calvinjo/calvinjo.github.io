@@ -1,0 +1,47 @@
+/* 
+
+1. Add your custom Css styles below
+2. Place the this code in your template: 
+
+ <link href="css/custom.css" rel="stylesheet">
+
+*/
+
+.post-image img{
+    object-fit: cover;
+    height: 400px;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    /* -----------------------------PAGE HOME-------------------------------- */
+    .three-top-header{
+        margin-top: 35px;
+    }
+
+    .shape-divider-custom{
+        width: 125%;
+    }
+    
+    /* Featured Product */
+    .product {
+        margin-bottom: 70px;
+        position: relative;
+        display: block;
+    }
+
+    .product .product-price {
+        margin-right: 26px;
+        text-align: left;
+        margin-top: 0px;
+    }
+
+    .product-rate i{
+        font-size: 0.7em;
+    }
+
+    .product .product-reviews, .product .product-reviews a {
+        float: left;
+    }
+
+}
