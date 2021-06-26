@@ -6,10 +6,23 @@
  <link href="css/custom.css" rel="stylesheet">
 
 */
-
+/* Desktop */
 .post-image img{
     object-fit: cover;
     height: 400px;
+}
+
+/* Featured Product */
+.product .product-price {
+    width: 100%;
+}
+
+.product .product-title {
+    max-width: 50%;
+}
+
+.header-extras ul li{
+    margin-left: 10px;
 }
 
 /* Mobile */
@@ -31,9 +44,8 @@
     }
 
     .product .product-price {
-        margin-right: 26px;
+        margin-top: 11px;
         text-align: left;
-        margin-top: 0px;
     }
 
     .product-rate i{
@@ -42,6 +54,10 @@
 
     .product .product-reviews, .product .product-reviews a {
         float: left;
+    }
+
+    .product .product-title {
+        max-width: 80%;
     }
 
 }
