@@ -25,6 +25,20 @@
     margin-left: 10px;
 }
 
+#logo img{
+    height: 70%;
+}
+
+.image-payment{
+    margin-right: 2.5%;
+}
+
+.heading-text.heading-gradient h2 > * {
+    -webkit-text-fill-color: transparent !important;
+    -webkit-background-clip: text !important;
+    background: radial-gradient(circle at left top, #cc1b1b 9%, #8A1C7C 48%, #6442ff 91%);
+  }
+  
 /* Mobile */
 @media (max-width: 767px) {
     /* -----------------------------PAGE HOME-------------------------------- */
