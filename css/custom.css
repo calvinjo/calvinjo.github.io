@@ -38,9 +38,16 @@
     -webkit-background-clip: text !important;
     background: radial-gradient(circle at left top, #cc1b1b 9%, #8A1C7C 48%, #6442ff 91%);
   }
-  
+
+.logo-small{
+    width: 30%;
+}
 /* Mobile */
 @media (max-width: 767px) {
+    .logo-small{
+        width: 70%;
+    }
+
     /* -----------------------------PAGE HOME-------------------------------- */
     .three-top-header{
         margin-top: 35px;
@@ -77,6 +84,15 @@
     /*Payment*/
     .display-4 {
         font-size: 2.5rem;
+    }
+
+    .container-card-complete{
+        margin: 0;
+        padding: 0;
+    }
+
+    .card-complete{
+        padding: 1rem !important;
     }
 
 }
